@@ -4,22 +4,22 @@ This repo contains both math and programming homework of the Machine Learning co
 There are total 5 HWs, the topics are:
 
 1. [Linear Regresstion](/HW1_due0927)
-    -  Training linear regression to predict PM2.5 data
-    -  Using variable selection to select the model with best prediction  
+    -  Train linear regression model to predict PM2.5 levels
+    -  Experiment with diffrerent variable combinatins (or via feature selection) to select the model with the best prediction perfromance
 2. [CNN for picture classification](/HW2_due_1028)
-    - Train a CNN network to classify the emotion of a given picture
-    - Apply data augmentation on training data to avoid overfitting
+    - Train a CNN network to classify the emotion shown in an image
+    - Apply data augmentation techniques to reduce overfitting
 3. [Autoencoder for semi-supervised learning](/HW3_due_1108)
-    - Use autoencoder arcitechure to deal with cases where only a small amount of labeled training data
-    - Use the embeddings of in autoencoder to generate a prediction 'label'
+    - Use an autoencoder arcitechure to handle scenarios wiht limited labeled training data
+    - Use the learned embeddings from the autoencoder to generate label predictions
 4.  [Classification via optimizing AUC & Clustering](/HW4_due_1108)
-     - Training a classification model for a diasease via optimizing AUC of ROC curve
-     - Can try various techniques to deal with imbalance data.
-     - Perform ablation studies to find out critical/important varibales.
-     - Implement a modified KNN clustering algorithm.
+     - Train a classification model for a diasease by optimizing the AUC of the ROC curve
+     - Apply various techniques to deal with imbalance data
+     - Perform an ablation study to identify critical/important features
+     - Implement a modified KNN clustering algorithm
 5.  [Tabular Reinforcement Learning](/HW5_due1220)
-     - Implement rewarding schedule on learning process
-     - Try on different action-selection strategies
+     - Design and implement reward schedules during the learning process
+     - Experiment with different action-selection strategies
 
 For reference only.
 **Plagiarism by students in future semesters is strictly prohibited.**
